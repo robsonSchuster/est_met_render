@@ -1,1 +1,15 @@
+{
+  "name": "node-red-render",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red -s /opt/render/project/src/src/settings.js -p $PORT"
+  },
+  "dependencies": {
+    "node-red": "^4.0.8",
+    "node-red-dashboard": "^3.0.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
 
